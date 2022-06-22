@@ -2,17 +2,13 @@ body {
     margin: 0px;
 }
 
-.top-container {
-    background-color: #F6E3C5;
-    width: 200px;
-    height: 200px;
-    border: solid 10px;
-    padding: 20px;
-}
-
 h1:first-child{
     margin-top: 0;
     
+}
+
+.pro {
+    color: blueviolet;
 }
 
 .middle-container {
