@@ -1,28 +1,43 @@
 body {
-    margin: 0px;
+    margin: 0;
+    text-align: center;
+
 }
 
-h1:first-child{
-    margin-top: 0;
-    
+
+h1 {
+    width: 10%;
+    margin: 0 auto;
 }
 
 .pro {
     color: blueviolet;
 }
 
+.top-cloud {
+    position: relative;
+    left: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+.top-container {
+    background-color: #FCF8E8;
+}
+
 .middle-container {
     background-color: red;
     width: 200px;
     height: 200px;
-    margin-left: 260px;
-    border: solid 20px;
+
 }
 
 .bottom-container {
     background-color: blue;
     width: 200px;
     height: 200px;
-    margin-left: 500px;
-    border: solid 10px;
 }
