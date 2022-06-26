@@ -7,9 +7,10 @@ body {
 
 
 h1 {
-    width: 20%;
+    width: 40%;
     margin: 0 auto;
     font-family: 'Sacramento', cursive;
+    font-size: 90px;
 }
 
 h2, h3 {
@@ -36,14 +37,16 @@ h2, h3 {
 }
 
 .middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    
 
 }
 
+.skill-images {
+    max-width: 200px;
+}
+
+
+
 .bottom-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+    
 }
