@@ -2,7 +2,15 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E
+}
 
+hr {
+    border-style: none;
+    border-bottom: dotted;
+    border-width: 7px;
+    width: 10%;
+    border-color: #99b3b3;
 }
 
 
@@ -19,7 +27,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 2;
 }
 
@@ -33,7 +41,7 @@ a {
 }
 
 .pro {
-    color: blueviolet;
+    border-bottom: #11999E;
 }
 
 .top-cloud {
@@ -47,6 +55,10 @@ a {
     left: 200px;
 }
 
+.profile-img {
+    margin: 50px auto 30px auto;
+}
+
 .top-container {
     background-color: #FCF8E8;
 }
@@ -55,6 +67,39 @@ a {
     
 
 }
+
+a:hover {
+    color: #e8c8c8;
+}
+
+.btn {
+    display: inline-block;
+    margin: 30px auto 50px auto;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
 
 
 .skill-cpp {
@@ -77,10 +122,15 @@ a {
 }
 
 
-
-
-
-
 .bottom-container {
-    
+    background-color: #66BFBF;
+    padding: 30px 0 10px 0;
+}
+
+.bottom-container > a {
+    margin: 0 10px;
+}
+
+.copyright {
+    color: white;
 }
